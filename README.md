@@ -1,64 +1,55 @@
-# <img src="icon.png" width="32" height="32"> AutoCascade TMO
+# <img src="icon.png" width="45" align="center"> AutoCascade TMO
 
-![v4.1](https://img.shields.io/badge/version-4.1-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Chrome%20|%20Edge-lightgrey?style=for-the-badge)
+<p align="left">
+  <img src="https://img.shields.io/badge/Versión-4.1-2196F3?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Estabilidad-v4_Stable-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Navegador-Chrome_|_Edge-white?style=for-the-badge&logo=googlechrome">
+</p>
 
-**AutoCascade TMO** es una suite de optimización avanzada para entusiastas del manga. Transforma la interfaz de lectura estándar en una experiencia premium, fluida y altamente personalizable, permitiendo que el contenido sea el único protagonista.
-
----
-
-## 🚀 Características Principales
-
-### 🔄 Motor de Visualización Inteligente
-* **Modo Cascada Automático:** Detecta y redirige automáticamente al modo de lectura continua para evitar interrupciones.
-* **Modo Libro (Spread View):** Visualización de doble página emulando la lectura de un tomo físico.
-* **Auto-Scroll Pro:** Desplazamiento automático ajustable con control de velocidad en tiempo real.
-
-### 🎨 Interfaz de Usuario (Shadow DOM)
-* **Widget Flotante Dinámico:** Panel de control integrado mediante Shadow DOM para evitar conflictos de estilo con el sitio web original.
-* **Ultra-Dark Mode:** Re-estilización completa de la paleta de colores para reducir la fatiga visual (Eye-Care).
-* **Control de Escala:** Ajuste dinámico del ancho de imagen (0% - 100%) para adaptarse a cualquier monitor.
-
-### ⚡ Rendimiento y Optimización
-* **Navegación Predictiva:** Buscador de rutas inteligente para saltar entre capítulos de forma instantánea.
-* **Limpieza de Nodos:** Motor basado en `MutationObserver` que elimina elementos redundantes que afectan el rendimiento del scroll.
+**AutoCascade TMO** es una solución de ingeniería de frontend diseñada para transformar la experiencia de lectura en plataformas de manga. Mediante la inyección de componentes dinámicos y un motor de visualización optimizado, convierte sitios web estándar en aplicaciones de lectura de alto rendimiento.
 
 ---
 
-## 🛠️ Instalación
+## 🛠️ Experiencia de Usuario Premium
 
-Para garantizar la integridad del código y recibir actualizaciones automáticas, la extensión debe instalarse a través de la tienda oficial:
+* **🔄 Redirección Inteligente:** Forzado automático de modo cascada para una lectura sin interrupciones.
+* **📖 Motor de Visualización Dual:** Intercambia instantáneamente entre el modo *Cascada Dinámica* y el modo *Libro Físico*.
+* **🖱️ Auto-Scroll Pro:** Algoritmo de desplazamiento suave con control de velocidad variable.
+* **🌚 Ultra-Dark Engine:** Re-mapeo completo del DOM para una interfaz optimizada para lectura nocturna.
+* **⚙️ Widget Flotante:** Panel de control integrado mediante **Shadow DOM**, garantizando cero conflictos de estilo.
+
+---
+
+## 📦 Distribución y Descarga
+
+Para asegurar que recibas las últimas optimizaciones de rendimiento y parches de seguridad, la extensión se distribuye exclusivamente a través de la tienda oficial. 
+
+Pulse el siguiente botón para ir a la página de instalación:
 
 <a href="https://chromewebstore.google.com/detail/autocascade-pro-tmo/imbloenianlfbcapdapgnkgphlbphohn">
-  <img src="https://developer.chrome.com/static/docs/webstore/brand-guidelines/image/v2-web-store-badge-92.png" alt="Disponible en Chrome Web Store">
+  <img src="https://raw.githubusercontent.com/chrome-stats/chrome-extension-badges/main/badges/download-on-chrome-web-store.png" width="280">
 </a>
 
-*Si eres desarrollador y deseas reportar un bug, por favor utiliza la pestaña de [Issues](../../issues).*
-
 ---
 
-## 📋 Arquitectura del Proyecto
+## 🧩 Arquitectura del Sistema
 
-El proyecto está modularizado para garantizar la máxima velocidad de ejecución:
+El desarrollo se basa en una arquitectura modular para minimizar el impacto en la memoria del navegador:
 
-| Módulo | Función |
+| Componente | Descripción Técnica |
 | :--- | :--- |
-| `Viewer.js` | Motor principal de renderizado y modos de lectura. |
-| `Navigation.js` | Lógica de detección de rutas y capítulos. |
-| `UI.js` | Interfaz de usuario inyectada y controles flotantes. |
-| `Optimizer.js` | Gestión de memoria y limpieza de elementos del DOM. |
+| **Viewer Engine** | Gestiona el renderizado de imágenes y estados de vista. |
+| **Navigation Logic** | Detección inteligente de nodos para saltos de capítulo. |
+| **UI Controller** | Inyección de interfaz de usuario aislada (Shadow Root). |
+| **Core Optimizer** | Gestión de eventos y limpieza de elementos redundantes del DOM. |
 
 ---
 
-## 🛡️ Transparencia y Seguridad
+## 🛡️ Notas de Desarrollo
 
-Este repositorio se mantiene como un **repositorio de documentación, seguimiento de versiones y feedback**. El código fuente completo no se publica de forma abierta para:
-1. Proteger la propiedad intelectual de los algoritmos de optimización.
-2. Evitar que los portales de lectura detecten y bloqueen los métodos de mejora de interfaz.
+Este repositorio funciona como el centro de **seguimiento, documentación y feedback** del proyecto. El código fuente se mantiene bajo licencia privada para proteger los algoritmos de optimización y prevenir que los cambios estructurales en los sitios web objetivo afecten la estabilidad de la extensión.
 
 ---
-
 <p align="center">
-  Desarrollado con ❤️ para la comunidad de lectores.
+  Hecho con pasión por el código y la lectura.
 </p>
