@@ -43,6 +43,17 @@ El desarrollo se basa en una arquitectura modular para minimizar el impacto en l
 
 ---
 
+## 💬 Sugerencias y Reportes
+
+¿Quieres proponer una mejora o has encontrado un error? Tu opinión ayuda a que la extensión siga evolucionando. Puedes enviarnos tus comentarios de forma privada a través de nuestro formulario oficial:
+
+<a href="https://forms.gle/F7WCwy9DGiMD8sKk8">
+  <img src="https://img.shields.io/badge/Enviar_Sugerencia_o_Error-Click_Aquí-orange?style=for-the-badge&logo=googleforms&logoColor=white" alt="Feedback Form">
+</a>
+
+*También puedes utilizar la pestaña de **Issues** de este repositorio para discusiones públicas.*
+
+---
 ## 🛡️ Notas de Desarrollo
 
 Este repositorio funciona como el centro de **seguimiento, documentación y feedback** del proyecto. El código fuente se mantiene bajo licencia privada para:
